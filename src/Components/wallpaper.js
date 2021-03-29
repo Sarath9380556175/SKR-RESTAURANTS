@@ -21,7 +21,7 @@ sessionStorage.setItem('locationId', location);
      
 
     axios({
-        url:'http://localhost:8080/homefilter',
+        url:'https://infinite-sea-51054.herokuapp.com/homefilter',
         method:'POST',
         headers:{'content-Type':'application/json'},
         data:
