@@ -344,7 +344,7 @@ style={customStyles}
     buttonText="Continue With Gmail"
     onSuccess={this.responseGoogle}
     onFailure={this.responseGoogle}
-    cookiePolicy={'single_host_origin'}
+    cookiePolicy={'multi_host_origin'}
   />
   <br/><br/>
    <FacebookLogin
