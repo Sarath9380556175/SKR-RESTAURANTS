@@ -340,7 +340,7 @@ style={customStyles}
 >
 <div>
 <GoogleLogin
-    clientId="336603315194-enmhbif41n6sh912oab9degu8ptt0q3h.apps.googleusercontent.com"
+    clientId="336603315194-an2hhg5qr4vm65fatmembp9hn51v0hsv.apps.googleusercontent.com"
     buttonText="Continue With Gmail"
     onSuccess={this.responseGoogle}
     onFailure={this.responseGoogle}
